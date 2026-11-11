@@ -9,7 +9,7 @@ gem 'octokit', '~> 4.25.0'
 gem 'ostruct'
 
 group :development do
-  gem 'byebug', '~> 11.1.3'
+  gem 'byebug', '~> 13.0.0'
   gem 'rspec', '~> 3.10.0'
   gem 'rubocop', '~> 1.57.2'
   gem 'rubocop-performance', '~> 1.21.0'
