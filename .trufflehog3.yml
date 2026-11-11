@@ -6,6 +6,9 @@ exclude:
   - message: Workflow action SHAs
     pattern: uses:\s.+@.+
 
+  - message: Docker image digests
+    pattern: image:\s.+@sha256:[0-9a-f]{64}
+
   - message: Dependencies
     paths:
       - node_modules
