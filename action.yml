@@ -55,7 +55,7 @@ inputs:
 
 runs:
   using: "docker"
-  image: "Dockerfile"
+  image: "docker://ghcr.io/step-security/wait-on-check-action:v1.9.1@sha256:bf1fdef73806db6d33fd50e8946ab91eb050c084cbeae20c75b0e6ab88ad2746" # v1.9.1
   env:
     ALLOWED_CONCLUSIONS: ${{ inputs.allowed-conclusions }}
     IGNORE_CHECKS: ${{ inputs.ignore-checks }}
