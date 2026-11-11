@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'activesupport', '~> 8.0.5'
+gem 'activesupport', '~> 8.1.4'
 gem 'base64'
 gem 'faraday-retry', '~> 2.0.0'
 gem 'octokit', '~> 4.25.0'
